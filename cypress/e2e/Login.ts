@@ -39,6 +39,10 @@ describe("Visiting and entering user details", () => {
   it("click login", () => {
     cy.get('[data-test="login-button"]')
     .click()
+    //prod.orderBackpack()
+  })
+
+  it("test code", () => {
     prod.orderBackpack()
   })
 
