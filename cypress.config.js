@@ -12,8 +12,9 @@ module.exports = defineConfig({
       
       // implement node event listeners here
     },
-    experimentalSessionAndOrigin: false,
     chromeWebSecurity: false,
-    specPattern: 'cypress/e2e/*.{js,jsx,ts,tsx}'
+    specPattern: 'cypress/e2e/*.{js,jsx,ts,tsx}',
+    baseUrl: "https://www.saucedemo.com/",
+    experimentalSourceRewriting: true
   },
 });

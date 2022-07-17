@@ -10,6 +10,11 @@ class Products {
         .click()
     }
 
+    backToHomePage() {
+        cy.get('[data-test="back-to-products"]')
+        .click()
+    }
+ 
 }
 
 export let prod = new Products()
