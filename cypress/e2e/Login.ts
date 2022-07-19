@@ -30,7 +30,7 @@ describe("Visiting and entering user details", () => {
   
   })
 
-  it("Ënter details", () => {
+  it("Enter details [L_001]", () => {
     cy.get('[data-test="username"]')
     .type("standard_user")
     cy.get('[data-test="password"]')
